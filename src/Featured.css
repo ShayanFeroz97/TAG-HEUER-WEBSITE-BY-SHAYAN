@@ -1,0 +1,69 @@
+/* FEATURED CARDS */
+
+.Featureds {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.featured_heading {
+  font-size: xx-large;
+  font-weight: 600;
+  margin-top:20px ;
+  text-align: center;
+}
+
+.featured_para{
+  font-size: medium;
+  text-align: center;
+}
+
+.featured_cards {
+  min-width: 19%;
+  max-width: 19%;
+  background-color: white;
+  /* box-shadow: 2px 2px 5px 1.5px rgb(0 0 0 / 50%); */
+  height: 60vh;
+  cursor: pointer;
+  border: 1px solid #cecece;
+}
+
+.featured_cards:hover {
+  /* opacity: 0.6; */
+    box-shadow: 2px 2px 5px 1.5px rgb(0 0 0 / 50%);
+}
+
+.featured_cards_img {
+  width: 130px;
+  height: 140px;
+  margin-left: 55px;
+  margin-top: 50px;
+}
+
+.featured_cards_title {
+  font-size: smaller;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.featured_cards_price {
+  color: white;
+  background-color: rgb(90, 0, 0);
+  border: 1px solid black;
+  font-size: small;
+  text-align: center;
+  font-weight: 500;
+  padding: 5px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+}

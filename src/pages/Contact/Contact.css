@@ -1,0 +1,142 @@
+/* CONTACT BANNER  */
+
+.Contact-banner {
+  width: 100%;
+  height: 75vh;
+}
+
+.contact-background > img {
+  width: 100%;
+  height: 60vh;
+  margin-top: 60px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title {
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 125px;
+}
+
+.contact-main-heading {
+  color: white;
+  font-size: 70px;
+  font-weight: 500;
+  text-align: center;
+  position: absolute;
+  top: 140px;
+}
+
+.contact-para-1 {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 250px;
+}
+
+.contact-para-2 {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 280px;
+}
+
+.contact-button {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 340px;
+  background-color: transparent;
+  border: 1px solid white;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  color: black;
+  background-color: white;
+  transition-duration: 0.4s;
+}
+
+/* CONTACT CARDS  */
+
+.Contact-cards {
+  width: 100%;
+  height: 85vh;
+}
+
+.contact-cards-heading {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-card-all {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 70vh;
+
+}
+
+.contactcard-1 {
+  background-color: #fafafa;
+  width: 30%;
+  height: 60vh;
+  /* box-shadow: 2px 2px 4px 0.5px rgb(0 0 0 / 30%); */
+}
+
+.contactcard-1:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.6s;
+}
+
+.card1-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.card1-icon {
+  font-size: 22px;
+}
+.card1-heading {
+  font-weight: 600;
+  font-size: 25px;
+}
+.card1-para {
+  color: #fafafa;
+  font-size: medium;
+}
+.card1-btn {
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid white;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 5px;
+  width: 30%;
+}

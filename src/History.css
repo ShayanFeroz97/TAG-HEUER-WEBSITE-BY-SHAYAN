@@ -1,0 +1,42 @@
+.para{
+   background-color: rgb(90, 0, 0);
+   width: 100%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+}
+
+
+@media only screen and (max-width:500px) {
+    h1 {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    p {
+        color: white;
+        text-align: center;
+        text-align: justify;
+        font-size: small;
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-bottom: 45px;
+        margin-bottom: 0px;
+    }
+
+}

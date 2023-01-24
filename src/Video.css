@@ -1,0 +1,36 @@
+.Video-Clip{
+ width: 100%;
+ height: 100vh;
+ overflow: hidden;
+
+}
+.video-tagheuer{
+  object-fit: contain;
+  margin: auto;
+  background: 0 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color: transparent;
+  outline: 0;
+}
+.video-tagheuer > video {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:1100px) {
+
+  .Video-Clip {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+}
+
+@media (max-width:500px){
+  .video-tagheuer {
+    object-fit: contain;
+    margin-top: 218px;
+    -webkit-focus-ring-color: transparent;
+  }
+
+}
